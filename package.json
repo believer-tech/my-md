@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-cloud-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Cloud API bot (official, policy-compliant)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
